@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/codigo.png" type="image/x-icon">
+  
+  <meta name="color-scheme" content="dark">
+ 
+
+  <title>About - Adam Spaini</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="dropdown.css">
+  <link rel="stylesheet" href="icons.css">
+  <link rel="preload" as="style" href="main-styles.css">
+  <link rel="stylesheet" href="main-styles.css" type="text/css">
+
+
+
+
+</head>
+
+<body style="background-color: #232323;">
+
+  <section class="menu navigation-bar">
+
+
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="navbar-icon">
+          <span class="navbar-logo">
+
+            <img src="assets/codigo.png" alt="Logo" style="height: 3rem;">
+
+          </span>
+
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+            <li class="nav-item"><a class="nav-link link text-primary display-4" href="index.html">
+                Home</a></li>
+            
+            <li class="nav-item"><a class="nav-link link text-primary display-4" href="about.html">About</a> </li>
+            
+          </ul>
+
+
+        </div>
+      </div>
+    </nav>
+  </section>
+  <div class="animate">
+    <section class="about-page">
+
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="counter-container col-md-12 col-lg-10">
+            <h4 class="section-title font-4 display-1"> About Me</h4>
+            <div class="normal-text display-7 align-center">
+              <span>I'm a Android and web developer from Paraguay. Currently learning Solidity and JavaScript. <br> I'm the co-organizer of CodeDay Delhi and a volunteer.
+                 <br><br> Interested in photography, UI/UX on Figma and communities.
+              </span>
+              <span>
+                <br> <br>
+                I love open source. Other than tech, I'm very interested in linguistics, I know the Russian language and currently learning Italiano.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+  
+
+ 
+  <!-- Cloudflare Web Analytics -->
+  <!-- End Cloudflare Web Analytics -->
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="nav-dropdown.js"></script>
+  <script src="navbar-dropdown.js"></script>
+  <script>
+    const skillContent = document.querySelectorAll(".skill");
+    const skillHeader = document.querySelectorAll(".skills_header");
+    const skillContentArr = Array.from(skillContent);
+    const skillHeaderArr = Array.from(skillHeader);
+
+    skillHeaderArr.forEach((element, idx) => {
+      element.addEventListener("click", function () {
+        skillContentArr[idx].classList.toggle("skills_open");
+      });
+    });
+  </script>
+
+  <section class="footer">
+    <div class="container">
+      <div class="media-container-row align-center white-text">
+        <div class="col-12">
+          <p class="normal-text font-0 display-7">
+            2024 Copyright © Made Paraguay ❤️ by <strong><span style="color:#8cb4ef;font-weight:bold">Adam Spaini Dev</span></strong> All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
