@@ -521,7 +521,7 @@ ul {
 a.text-primary.active,
 a.text-primary:focus,
 a.text-primary:hover {
-  color: #327ae3 !important
+  color: #fff !important
 }
 
 a[class*=text-]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
@@ -1285,7 +1285,7 @@ body {
   font-size: 2rem
 }
 
-.social-row .socials:hover .iconfont {
+.social-row .socials .imgIconTiktok .imgIconFacebook:hover{
   color: #fff
 }
 
@@ -1602,3 +1602,26 @@ body {
       margin-right: auto;
   }
 }
+.imgIconTiktok  {
+  filter: invert(64%) sepia(30%) saturate(647%) hue-rotate(182deg) brightness(106%) contrast(87%);
+  display: inline-block;
+  margin-right: 1rem;
+  padding-top: -1rem;
+  padding-bottom: 1.5rem;
+  color: #8cb4ef;
+ 
+}
+
+.imgIconFacebook  {
+  filter: invert(64%) sepia(30%) saturate(647%) hue-rotate(182deg) brightness(106%) contrast(87%);
+  display: inline-block;
+  margin-right: 1rem;
+  padding-top: -1rem;
+  padding-bottom: 1.5rem;
+  color: #8cb4ef;
+ 
+}
+
+
+
+

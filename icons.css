@@ -20,6 +20,7 @@
   content: '\0041';
 }
 
+
 .icon-telegram:before {
   content: '\0042';
 }
@@ -47,6 +48,8 @@
 .icon-fullscreen:before {
   content: '\0048';
 }
+
+
 
 .icon-chevron-down:before {
   vertical-align: middle;
@@ -147,4 +150,13 @@
   content: '\0066';
   padding-right: 7px;
   vertical-align: middle;
+}
+
+
+.icon-facebook:before {
+  content: '\0067';
+}
+
+.icon-tiktok:before {
+  content: '\0068';
 }
